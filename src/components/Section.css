@@ -44,5 +44,13 @@ p {
   }
   article {
     padding: 0 10px;
+    margin: 10px auto;
+  }
+  p {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+  }
+  .my-5 {
+    margin: 2rem 0!important;
   }
 }

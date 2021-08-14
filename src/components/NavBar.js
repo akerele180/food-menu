@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './NavBar';
 
 function NavBar() {
-  const { foodType, setFoodType, handleEvent } = useContext(FoodContext)
+  const { handleEvent } = useContext(FoodContext)
   // console.log(foodType)
 
   return (
