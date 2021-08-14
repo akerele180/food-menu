@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+img {
+  width: 100%;
+  /* display: none; */
+  border: 4px solid goldenrod !important;
+  object-fit: fill;
+}
+.adds {
+  height: 450px;
+  overflow: hidden;
+  z-index: 20;
+}
+.adds img {
+  /* margin-top: -25%; */
+  height: 96%;
+}
+p {
+  border-top: 1px dotted black;
+  padding-top: 5px;
+  line-height: 3rem;
+  font-size: 1.8rem;
+  color: #191b67;
+}
+.text-end {
+  color: goldenrod;
+}

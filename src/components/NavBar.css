@@ -1,0 +1,17 @@
+ul {
+  margin: 0;
+}
+li {
+  line-height: 2.5rem;
+  list-style: none;
+  font-size: 2rem;
+  margin: 0 5px;
+  padding: 4px 6px;
+  cursor: pointer;
+  color: goldenrod;
+}
+li:hover {
+  background-color: goldenrod;
+  color: #fff;
+  border-radius: 4px;
+}

@@ -1,0 +1,31 @@
+header {
+  margin-top: 4%;
+}
+.underline {
+  width: 90px;
+  margin: 0 auto 15px;;
+  height: 6px;
+  background-color: goldenrod;
+}
+ul {
+  margin: 0;
+}
+li {
+  display: inline-block;
+  line-height: 2rem;
+  list-style: none;
+  font-size: 1.4rem;
+  margin: 0 1px;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+button {
+  color: goldenrod;
+}
+button:hover {
+  color: #fff;
+}
+li:hover {
+  background-color: goldenrod;  
+  border-radius: 4px;
+}
